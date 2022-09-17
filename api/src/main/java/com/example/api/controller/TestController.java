@@ -16,4 +16,5 @@ public class TestController {
     public TestModel test1(){
         return new TestModel(1,"niu");
     }
+
 }
