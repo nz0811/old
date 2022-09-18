@@ -24,4 +24,4 @@ echo 镜像构建完成${server}
 
 echo 开始运行容器${server}
 docker run -d -p ${port}:${port} --name ${server} ${server}:1.0
-echo test容器运行成功
+echo ${server}容器运行成功
